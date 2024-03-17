@@ -25,7 +25,7 @@ const bgUrl = ref(null); // 壁纸链接
 // 更换壁纸链接
 const changeBg = (type) => {
   if (type == 0) {
-    bgUrl.value = `/images/background${Math.floor(
+    bgUrl.value = `https://cdn.sakurasep.site/Source/MyIndex/static/wallpaper/background${Math.floor(
       Math.random() * 10 + 1
     )}.webp`;
   } else if (type == 1) {
