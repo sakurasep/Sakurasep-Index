@@ -67,9 +67,9 @@ const siteUrl = computed(() => {
   // 判断协议前缀
   if (url.startsWith("http://") || url.startsWith("https://")) {
     const urlFormat = url.replace(/^(https?:\/\/)/, "");
-    return urlFormat.split(".");
+    return urlFormat;
   }
-  return url.split(".");
+  return url;
 });
 
 // 更新日志
@@ -132,13 +132,13 @@ const jumpTo = (url) => {
 
       .logo {
         transform: translateY(-8%);
-        font-family: "Pacifico-Regular";
+        font-family: "LXGW";
         padding-left: 22px;
         width: 100%;
         height: 260px;
         min-height: 140px;
         .bg {
-          font-size: 5rem;
+          font-size: 4rem;
         }
 
         .sm {
@@ -154,7 +154,7 @@ const jumpTo = (url) => {
 
         .num {
           font-size: 2rem;
-          font-family: "Pacifico-Regular";
+          font-family: "LXGW";
         }
 
         .github {

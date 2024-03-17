@@ -61,7 +61,6 @@ const siteLinksList = computed(() => {
   return result;
 });
 
-// 网站链接图标
 const siteIcon = {
   Blog,
   Cloud,
@@ -70,7 +69,6 @@ const siteIcon = {
   Book,
   Fire,
   LaptopCode,
-  PhotoVideo,
 };
 
 // 链接跳转

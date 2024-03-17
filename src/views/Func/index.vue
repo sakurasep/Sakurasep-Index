@@ -125,7 +125,7 @@ onBeforeUnmount(() => {
           margin-top: 10px;
           font-size: 3.25rem;
           letter-spacing: 2px;
-          font-family: "UnidreamLED";
+          font-family: "LXGW";
         }
       }
       .weather {

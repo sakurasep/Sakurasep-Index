@@ -25,9 +25,9 @@ const siteUrl = computed(() => {
   // 判断协议前缀
   if (url.startsWith("http://") || url.startsWith("https://")) {
     const urlFormat = url.replace(/^(https?:\/\/)/, "");
-    return urlFormat.split(".");
+    return urlFormat;
   }
-  return url.split(".");
+  return url;
 });
 </script>
 
@@ -38,7 +38,7 @@ const siteUrl = computed(() => {
   margin-left: 0.75rem;
   .logo {
     width: 100%;
-    font-family: "Pacifico-Regular";
+    font-family: "LXGW";
     font-size: 1.75rem;
     position: fixed;
     top: 6%;
