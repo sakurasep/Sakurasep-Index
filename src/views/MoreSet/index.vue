@@ -13,8 +13,8 @@
     <el-row :gutter="40">
       <el-col :span="12" class="left">
         <div class="logo text-hidden">
-          <span class="bg">{{ siteUrl[0] }}</span>
-          <span class="sm">.{{ siteUrl[1] }}</span>
+          <span class="bg">sakurasep</span>
+          <span class="sm">.site</span>
         </div>
         <div class="version">
           <div class="num">v&nbsp;{{ config.version }}</div>
@@ -132,7 +132,7 @@ const jumpTo = (url) => {
 
       .logo {
         transform: translateY(-8%);
-        font-family: "LXGW";
+        font-family: "Smiley";
         padding-left: 22px;
         width: 100%;
         height: 260px;

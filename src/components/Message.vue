@@ -102,7 +102,7 @@ watch(
       width: 100%;
       padding-left: 22px;
       transform: translateY(-8px);
-      font-family: "LXGW";
+      font-family: "Smiley";
 
       .bg {
         font-size: 4rem;
